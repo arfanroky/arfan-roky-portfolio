@@ -5,11 +5,11 @@ const Blogs = () => {
     <article className="p-4">
       <div className="text-center">
         <p className="font-medium mb-8 text-gray-400 my-4 border-b-4 border-cyan-300 inline-block tracking-widest uppercase text-3xl">
-          Projects
+          Blogs
         </p>
       </div>
-      <section className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-center min-h-screen">
-        <div className="w-[350px] h-[400px] border-2">
+      <section className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-center  mt-8">
+        <div className="w-[350px] h-[400px] border-2 mx-auto">
           <h1 className="text-center text-5xl font-bold text-cyan-400 py-12 border-b">
             Coming Soon
           </h1>
