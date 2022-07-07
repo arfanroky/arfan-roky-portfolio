@@ -2,7 +2,7 @@ import React from 'react';
 import PortfolioImg from '../images/arfan-roky.png';
 import RESUME from '../images/resume.pdf';
 
-import { FaFacebookSquare, FaLinkedin, FaMailBulk , FaDownload, FaInstagramSquare} from 'react-icons/fa';
+import { FaFacebookSquare, FaLinkedin, FaDownload, FaInstagramSquare} from 'react-icons/fa';
 
 
 const HeroPage = () => {

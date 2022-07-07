@@ -5,7 +5,7 @@ import SingleProjects from './SingleProjects';
 
 const Projects = () => {
     return (
-        <section className='p-4 mt-12 '>
+        <section className='p-4 md:h-[80vh]'>
            <div className='text-center'>
            <p className="font-medium mb-8 text-gray-400 my-4 border-b-4 border-cyan-300 inline-block tracking-widest uppercase text-3xl">
             Projects

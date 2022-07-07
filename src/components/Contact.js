@@ -25,13 +25,14 @@ const Contact = () => {
   };
 
   return (
-    <section className="p-4">
+    <section className="p-4 md:h-[90vh]">
       <div className="text-center">
         <p className="font-medium mb-8 text-gray-400 my-4 border-b-4 border-cyan-300 inline-block tracking-widest uppercase text-3xl">
           Contact
         </p>
       </div>
       <div className="flex justify-center shadow-2xl shadow-cyan-400">
+    
         <form className="rounded-2xl p-4 w-[420px] md:mx-0 mx-auto"
           ref={form}
           onSubmit={sendEmail}
