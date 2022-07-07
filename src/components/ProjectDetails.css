@@ -1,0 +1,10 @@
+.scrolling-image{
+    width: 100%;
+    height: 350px;
+    background: black;
+    transition: ease-in-out 8s;
+}
+
+.scrolling-image:hover{
+    background-position: bottom;
+}

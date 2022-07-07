@@ -5,9 +5,9 @@ import { SiGmail } from 'react-icons/si';
 
 const About = () => {
   return (
-    <article className="p-4 mt-12">
+    <article className="p-4 mt-12 ">
       <div className="grid md:grid-cols-2 grid-cols-1 md:h-screen items-center gap-y-12 md:mt-0 ">
-          <figure className=" h-[500px] relative">
+          <figure className=" h-[500px] relative -z-10">
             <div className='w-[300px] border-l-8 border-b-8 border-l-white border-b-white absolute top-12 left-0 h-full'>
             </div>
             <img  className="border-8 border-r-0 border-t-0 top-6 left-6 shadow-2xl shadow-white absolute h-[500px] bg-indigo-400" src={PortfolioImg} alt="" />
