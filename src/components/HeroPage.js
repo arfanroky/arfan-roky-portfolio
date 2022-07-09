@@ -1,6 +1,6 @@
 import React from 'react';
 import PortfolioImg from '../images/arfan-roky.png';
-import RESUME from '../images/resume.pdf';
+import arfanRokyResume from '../images/arfan-roky-resume.pdf';
 
 import { FaFacebookSquare, FaLinkedin, FaDownload, FaInstagramSquare} from 'react-icons/fa';
 
@@ -34,8 +34,8 @@ const HeroPage = () => {
           
           <a
             className="py-3 px-6 rounded  text-gray-200 font-bold bg-cyan-600"
-            href={RESUME}
-            download=" resume.pdf"
+            href={arfanRokyResume}
+            download="arfan-roky-resume.pdf"
           >
             <span>Resume</span>  <FaDownload className='inline-block'/>
           </a>

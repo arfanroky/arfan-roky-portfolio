@@ -7,10 +7,10 @@ const About = () => {
   return (
     <article className="p-4 mt-12 md:h-screen">
       <div className="grid md:grid-cols-2 grid-cols-1  items-center gap-y-12 md:mt-0 ">
-          <figure className=" h-[500px] relative -z-10">
+          <figure className=" md:h-[500px] h-[420px] relative -z-10">
             <div className='w-[300px] border-l-8 border-b-8 border-l-white border-b-white absolute top-12 left-0 h-full'>
             </div>
-            <img  className="border-8 border-r-0 border-t-0 top-6 left-6 shadow-2xl shadow-white absolute h-[500px] bg-indigo-400" src={PortfolioImg} alt="" />
+            <img  className="border-8 border-r-0 border-t-0 top-6 left-6 shadow-2xl shadow-white absolute md:h-[500px] h-[400px] bg-indigo-400" src={PortfolioImg} alt="" />
           </figure>
         <div className='mt-12'>
           <p className="font-medium text-xl text-gray-400 my-4 border-b-4 border-cyan-300 inline-block">
